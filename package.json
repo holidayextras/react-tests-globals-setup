@@ -1,0 +1,27 @@
+{
+  "name": "react-tests-globals-setup",
+  "version": "1.0.0",
+  "description": "Setup a global fake jsdom & polyfill global Intl to make unit test environments more browser-like",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js && echo ✔",
+    "lint": "make-up test"
+  },
+  "keywords": [
+    "react",
+    "testing",
+    "globals",
+    "jsdom",
+    "intl"
+  ],
+  "author": "Ollie Buck <ollie.buck@holidayextras.com>",
+  "license": "ISC",
+  "repository": "https://github.com/holidayextras/react-tests-globals-setup",
+  "dependencies": {
+    "intl": "^1.0.0",
+    "jsdom": "^3.1.2"
+  },
+  "devDependencies": {
+    "make-up": "^5.3.1"
+  }
+}
